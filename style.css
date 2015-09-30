@@ -1,0 +1,45 @@
+article {
+	margin: 40px 20% 20px 20%;
+
+	}
+	header h1 {
+	font: 32pt Helvetica,"Helvetica neue", Arial, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	color: #000;
+	padding-top: 30px ;
+	text-shadow: 1px 1px 2px #fff; 
+	}
+	
+article header h2 {
+	margin: 0 0 15px 0;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 1.3;
+	}
+article aside {
+	float: left;
+	width: 20%;
+	margin-left: -25%;
+	font-size: 12px;
+	line-height: 1.8;
+	color: #999;
+	}
+@media screen and (max-width: 700px) {
+	article aside {
+		float: none;
+		width: auto;
+		margin: 0 0 20px 0;
+		line-height: 1.5;
+		}
+	}
+article p {
+	margin: 0 0 20px 0;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #666;
+	}
+article footer {
+	font-size: 14px;
+	color: #999;
+	}	
